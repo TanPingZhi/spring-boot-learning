@@ -1,0 +1,61 @@
+# Build output
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (in case of switch)
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+bin/
+
+# IDE - VSCode
+.vscode/
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+HELP.md
+*.original
+
+# Application config with secrets (keep templates, ignore overrides)
+application-local.yml
+application-prod.yml
+application-secret.yml
+
+# Misc
+*.swp
+*.swo
+*~
