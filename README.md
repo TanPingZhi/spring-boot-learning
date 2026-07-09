@@ -37,7 +37,7 @@ Each section lists **key concepts**, **common interview questions**, and
 
 ### Key Concepts
 - **Inversion of Control (IoC):** The framework controls object creation and lifecycle; you don't `new` your dependencies.
-- **Dependency Injection (DI):** Objects receive their dependencies rather than creating them. Spring injects via constructor, setter, or field.
+- **Dependency Injection (DI):** Objects receive their dependencies rather than initializing them (`new`). Spring injects via constructor, setter, or field.
 - **IoC Container:** The `ApplicationContext` that manages beans (objects) — creates, wires, and destroys them.
 - **Bean:** Any object managed by the Spring IoC container.
 - **Bean Scopes:** singleton (default), prototype, request, session, application.
